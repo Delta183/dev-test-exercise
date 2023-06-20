@@ -32,8 +32,8 @@ const LoginComponent = () => {
       }
 
     return (
-    <div className="container">
-        <h1>Log In</h1>
+    <div className="container" >
+        <h1 className="text-center">Log In</h1>
         <Form autoComplete="off">
             {/* First Segment */}
             <Form.Group className="m-3" >
